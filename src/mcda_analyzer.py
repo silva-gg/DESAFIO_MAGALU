@@ -52,11 +52,11 @@ class MCDAAnalyzer:
             # Potencial de mercado - CORRIGIDO com dados realistas
             # Baseado na área de influência real de cada CD
             if cidade == 'recife':
-                # Recife: PE (9.6M) + RN (3.5M) + PB (4.0M) + AL (3.3M) = ~20.4M
-                potencial = 20.4e6  
+                # Recife: PE+PB+RN = ~17M
+                potencial = 17e6
             else:
-                # Salvador: BA (14.9M) + SE (2.3M) + sul do PI/MA (~3M) = ~20.2M  
-                potencial = 20.2e6  # Praticamente equivalente - disputa equilibrada
+                # Salvador: BA+AL+SE = ~20M  
+                potencial = 20e6  # Praticamente equivalente - disputa equilibrada
             
             # Score de infraestrutura (média ponderada)
             infra_scores = cidade_data['infraestrutura']
