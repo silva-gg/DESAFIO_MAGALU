@@ -1,0 +1,28 @@
+# Core libraries for Python 3.12 compatibility
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+requests
+scipy
+
+# Machine Learning (Python 3.12 compatible)
+scikit-learn
+xgboost
+
+# Optimization and simulation
+pulp
+networkx
+
+# Geospatial (simplified for compatibility)
+folium
+geopy
+
+# Jupyter
+jupyter
+jupyterlab
+
+# Utilities
+python-dotenv
+openpyxl
